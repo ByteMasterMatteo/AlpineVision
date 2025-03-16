@@ -1,0 +1,121 @@
+.motto2 {
+  font-weight: bold; 
+  position: absolute;
+  font-style: italic; 
+  left: 40vw;
+  margin-top: 0.5em;
+  color: #046586;
+  font-size: 5vw;
+}
+
+.darkness {
+  filter: brightness(35%);
+}
+
+.no-space-rowBg {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative; 
+}
+
+.centered-text {
+  position: absolute;
+  font-weight:normal;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; 
+  font-size: 5vw; 
+  z-index: 10; 
+  text-align: center;
+  width: 100%;
+}
+
+.boldText {
+  font-weight: bold; 
+}
+
+.img-fluid {
+  width: 100%; 
+  height: auto;
+}
+
+.title-centered {
+  text-align: left;
+  font-weight: bold; 
+  width: 100%;
+  margin: 0; 
+}
+
+.card-text-prod {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+.darknesss {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.card-image-fit {
+  width: auto; 
+  height: auto; 
+  object-fit: cover; 
+}
+
+.card-prod {
+  box-shadow: 15px 15px 15px 5px rgba(0,0,0,0.2); 
+  border: none !important; 
+  background: #ffffff;
+}
+
+.container-prod {
+  size:  100%;
+  margin: 0 !important; 
+  padding: 0 !important; 
+  padding-right: 0 !important;
+}
+
+.card-image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-image-fit-prod {
+  position: absolute;
+  transition: opacity 0.5s ease-out;
+  opacity: 0;
+}
+.card-image-fit-prod::after {
+  position: absolute;
+  opacity: 1;
+}
+
+.card-image-visible {
+  position: relative;
+  transition: opacity 0.5s ease-in;
+  opacity: 1; 
+}
+
+.card-prod-prod-ca {
+  transition: transform 0.3s ease-in-out; 
+}
+
+.card-prod-prod-ca:hover {
+  transform: scale(1.05); 
+}
+
+.heart {
+  transition: transform 0.2s ease-in-out;
+}
+
+.heart.animate {
+  transform: scale(1.2);
+}

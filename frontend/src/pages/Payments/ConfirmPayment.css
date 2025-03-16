@@ -1,0 +1,32 @@
+.confirm-payment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: space-around;
+   
+  }
+  
+  .image-container img {
+    width: 20vw;
+    height: auto; 
+    animation: moveImage 2s infinite alternate; 
+  }
+
+ 
+  @keyframes moveImage {
+    from {
+      transform: translateX(-250px);
+    }
+    to {
+      transform: translateX(250px);
+    }
+  }
+
+  

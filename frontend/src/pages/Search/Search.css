@@ -1,0 +1,7 @@
+
+.card-image-fit-se {
+    width: auto;
+    height: 300px;
+    object-fit: cover;
+    overflow: hidden;
+}
