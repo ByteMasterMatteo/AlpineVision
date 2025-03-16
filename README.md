@@ -74,3 +74,9 @@ Per testare lo store, la procedura da seguire è la seguente:
 3. Avviare il backend dalla rispettiva cartella eseguendo il comando "node server.js" nel terminale.
 4. Avviare il frontend dalla rispettiva cartella eseguendo i comandi "npm install react-scripts" e "npm start" nel terminale.
 
+## Team e Contributi
+Questo progetto è stato realizzato in collaborazione con:
+
+- [@ByteMasterMatteo](https://github.com/ByteMasterMatteo)  
+- [@alessandrograssi10](https://github.com/alessandrograssi10) 
+- [@GianlucaRoma](https://github.com/GianlucaRoma)  
